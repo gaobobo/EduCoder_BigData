@@ -2,7 +2,7 @@
 
 force_pass() {
 
-    echo 'print("Hello, world")' > "/home/headless/Desktop/workspace/myshixun/test.py"
+    echo 'print("Hello, world!", end="")' > "/home/headless/Desktop/workspace/myshixun/test.py"
 
 }
 
