@@ -10,8 +10,6 @@ normal_pass() {
         "将自动使用force模式通关，这会修改评测系统的内核。"
 
     force_pass
-
-    
 }
 
 
