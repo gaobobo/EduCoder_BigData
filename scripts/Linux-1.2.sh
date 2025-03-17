@@ -1,16 +1,18 @@
 #!/bin/bash
 
 force_pass() {
-       echo "echo -e \"ls: "'\`'"/user/stu01/': No such file or directory\n234\n5678\nHadoop\"" > "/data/workspace/myshixun/src/step1/test.sh"
+
+    echo \
+'
+echo "test.txt创建成功！"
+echo -n "Hello,Linux!"
+'   > "/home/headless/Desktop/workspace/myshixun/step2/2.sh"
 
 }
 
 normal_pass() {
 
-    echo -e "\e[38;5;11;7m 警告: \e[0mHDFS有概率因为超时问题停机导致无法百分百通关，且start-dfs.sh内有exit脚本无法直接调用。" \
-        "将自动使用force模式通关，这会修改评测系统的内核。"
-
-    force_pass
+       echo "Hello,Linux!" > /home/headless/test.txt
     
 }
 

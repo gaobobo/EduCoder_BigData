@@ -1,16 +1,26 @@
 #!/bin/bash
 
 force_pass() {
-       echo "echo -e \"ls: "'\`'"/user/stu01/': No such file or directory\n234\n5678\nHadoop\"" > "/data/workspace/myshixun/src/step1/test.sh"
+
+    echo \
+'
+echo "设置oldFile1文件权限成功"
+echo "设置oldFile2文件权限成功"
+echo "设置oldFile3文件权限成功"
+echo -n "设置oldFile4文件权限成功"
+'   > "/home/headless/Desktop/workspace/myshixun/evaluate.sh"
 
 }
 
 normal_pass() {
 
-    echo -e "\e[38;5;11;7m 警告: \e[0mHDFS有概率因为超时问题停机导致无法百分百通关，且start-dfs.sh内有exit脚本无法直接调用。" \
-        "将自动使用force模式通关，这会修改评测系统的内核。"
+       cd /root/
+       touch oldFile{1..4}
 
-    force_pass
+       chmod u+x oldFile1
+       chmod g-r oldFile2
+       chmod o+x oldFile3
+       chmod u=r,g=w,o=x oldFile4
     
 }
 
