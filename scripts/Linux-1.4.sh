@@ -9,7 +9,7 @@ force_pass() {
 normal_pass() {
 
        sed -i \
-       '155c\		printk("Hello, world!\n\r",(NR_HD>1)?"s":"");' \
+       '155c\		printk("Hello, world!\\n\\r",(NR_HD>1)?"s":"");' \
        "/home/headless/os/linux-0.11-lab/0/linux/kernel/blk_drv/hd.c"
 
        cd "/home/headless/os/linux-0.11-lab/0/linux/"
