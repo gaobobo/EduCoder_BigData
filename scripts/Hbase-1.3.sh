@@ -6,7 +6,7 @@ force_pass() {
 'echo "row1column=data:1,value=zhangsan"
  echo "row2column=data:2,value=zhangsanfeng"
  echo "row3column=data:3,value=zhangwuji"
- echo -n "3row(s)" ' > "/data/workspace/myshixun/step1/1.sh"
+ echo -n "3row(s)" ' > "/data/workspace/myshixun/step3/3.sh"
  
 }
 
