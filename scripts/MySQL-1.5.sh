@@ -9,7 +9,7 @@ force_pass() {
  echo "Field   Type    Null    Key     Default Extra"
  echo "id      int(11) NO      PRI     NULL    auto_increment"
  echo "username        varchar(32)     NO      UNI     NULL"
- echo -n "sex     varchar(4)      YES             男" ' > "/data/workspace/myshixun/src/step/TestDb.sh"
+ echo -n "sex     varchar(4)      YES             男" ' > "/data/workspace/myshixun/src/step5/TestDb.sh"
 
 }
 
