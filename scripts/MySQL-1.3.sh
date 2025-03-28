@@ -15,7 +15,7 @@ force_pass() {
  echo "Field   Type    Null    Key     Default Extra"
  echo "name    varchar(32)     NO      PRI"
  echo "phone   varchar(11)     NO      PRI"
- echo -n "email   varchar(32)     YES             NULL" ' > "/data/workspace/myshixun/src/step/TestDb.sh"
+ echo -n "email   varchar(32)     YES             NULL" ' > "/data/workspace/myshixun/src/step3/TestDb.sh"
 
 }
 
