@@ -10,7 +10,7 @@ force_pass() {
  echo "id	int(11)	YES		NULL	"
  echo "name	varchar(32)	YES		NULL	"
  echo "deptId	int(11)	YES		NULL	"
- echo -n "salary	float	YES		NULL	"' > "/data/workspace/myshixun/src/step2/TestDb.sh"
+ echo "salary	float	YES		NULL	"' > "/data/workspace/myshixun/src/step2/TestDb.sh"
 
 }
 
