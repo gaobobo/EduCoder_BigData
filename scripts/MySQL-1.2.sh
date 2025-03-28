@@ -6,11 +6,11 @@ force_pass() {
 'echo " ::::::::::::::"
  echo "/tmp/temp.log"
  echo "::::::::::::::"
- echo "Field   Type    Null    Key     Default Extra"
- echo "id      int(11) YES             NULL"
- echo "name    varchar(32)     YES             NULL"
- echo "deptId  int(11) YES             NULL"
- echo -n "salary  float   YES             NULL"' > "/data/workspace/myshixun/src/step2/TestDb.sh"
+ echo "Field	Type	Null	Key	Default	Extra"
+ echo "id	int(11)	YES		NULL	"
+ echo "name	varchar(32)	YES		NULL	"
+ echo "deptId	int(11)	YES		NULL	"
+ echo "salary	float	YES		NULL	"' > "/data/workspace/myshixun/src/step2/TestDb.sh"
 
 }
 
