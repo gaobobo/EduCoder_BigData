@@ -12,7 +12,7 @@ force_pass() {
  echo "classId	int(11)	YES	MUL	NULL	"
  echo "Field	Type	Null	Key	Default	Extra"
  echo "id	int(11)	NO	PRI	NULL	"
- echo -n "name	varchar(22)	YES		NULL	" ' > "/data/workspace/myshixun/src/step4/TestDb.sh"
+ echo "name	varchar(22)	YES		NULL	" ' > "/data/workspace/myshixun/src/step4/TestDb.sh"
 
 }
 
