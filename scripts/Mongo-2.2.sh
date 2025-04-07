@@ -4,7 +4,7 @@ force_pass() {
  
     source /tmp/download.sh resource/Mongo-2.2/output.txt Mongo-2.2.txt ${DownloadSite} ${Branch}
 
-    echo 'cat "/tmp/Mongo-2.2.txt"' > ""
+    echo 'cat "/tmp/Mongo-2.2.txt"' > "/data/workspace/myshixun/step2/Testdb.sh"
 
 }
 
