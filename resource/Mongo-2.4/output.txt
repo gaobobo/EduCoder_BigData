@@ -1,0 +1,30 @@
+变量插入成功的的操作结果为：
+BulkWriteResult({
+	"writeErrors" : [ ],
+	"writeConcernErrors" : [ ],
+	"nInserted" : 4,
+	"nUpserted" : 0,
+	"nMatched" : 0,
+	"nModified" : 0,
+	"nRemoved" : 0,
+	"upserted" : [ ]
+})
+查看stu1集合的操作结果为：
+{ "_id" : 1, "name" : "西西", "sex" : "女", "age" : 23, "national" : "汉族" }
+{ "_id" : 2, "name" : "东东", "sex" : "男", "age" : 20, "national" : "苗族" }
+{ "_id" : 3, "name" : "北北", "sex" : "男", "age" : 19, "national" : "汉族" }
+{ "_id" : 4, "name" : "南南", "sex" : "女", "age" : 15, "national" : "傣族" }
+查看stu2集合的操作结果为：
+{ "_id" : 1, "name" : "西西", "sex" : "女", "age" : 23, "national" : "汉族" }
+{ "_id" : 2, "name" : "东东", "sex" : "男", "age" : 20, "national" : "苗族" }
+{ "_id" : 3, "name" : "北北", "sex" : "男", "age" : 19, "national" : "汉族" }
+{ "_id" : 4, "name" : "南南", "sex" : "女", "age" : 15, "national" : "傣族" }
+查找年龄大于等于15岁的女生的操作结果为：
+{ "_id" : 1, "name" : "西西", "sex" : "女", "age" : 23, "national" : "汉族" }
+{ "_id" : 4, "name" : "南南", "sex" : "女", "age" : 15, "national" : "傣族" }
+查找苗族人的操作结果为：
+{ "_id" : 2, "name" : "东东", "sex" : "男", "age" : 20, "national" : "苗族" }
+查找年龄小于20岁的男生的操作结果为：
+{ "_id" : 3, "name" : "北北", "sex" : "男", "age" : 19, "national" : "汉族" }
+WriteResult({ "nRemoved" : 4 })
+查看stu2内容的操作结果为：
