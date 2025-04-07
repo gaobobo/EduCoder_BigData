@@ -11,7 +11,7 @@ echo "27017端口服务关闭成功~"' > "/data/workspace/myshixun/step3/Testdb.
 
 normal_pass() {
 
-    echo -e "\e[38;5;11;7m 警告: \e[0mHDFS有概率因为超时问题停机导致无法百分百通关，且start-dfs.sh内有exit脚本无法直接调用。" \
+    echo -e "\e[38;5;11;7m 警告: \e[0m有概率因为超时问题停机导致无法百分百通关。" \
             "将自动使用force模式通关，这会修改评测系统的内核。"
 
     force_pass
