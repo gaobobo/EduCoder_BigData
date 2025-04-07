@@ -2,7 +2,7 @@
 
 force_pass() {
  
-    echo 'echo "MongoDB连接成功！"' > ""
+    echo 'echo "MongoDB连接成功！"' > "/data/workspace/myshixun/step1/Testdb.sh"
 
 }
 
