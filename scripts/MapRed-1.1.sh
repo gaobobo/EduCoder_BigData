@@ -3,10 +3,10 @@
 force_pass() {
        echo \
 """
-echo "张无忌  33"
-echo "李斯    43"
-echo "王思聪  55"
-echo -n "赵春燕  65"
+echo "张无忌	33"
+echo "李斯	43"
+echo "王思聪	55"
+echo -n "赵春燕	65"
 """ > "/data/workspace/myshixun/step1/1.sh"
  
 }
