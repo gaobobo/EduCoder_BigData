@@ -1,13 +1,10 @@
 #!/bin/bash
 
 force_pass() {
-       echo \
-"""
-echo "张无忌	33"
-echo "李斯	43"
-echo "王思聪	55"
-echo -n "赵春燕	65"
-""" > "/data/workspace/myshixun/step1/1.sh"
+
+    source /tmp/download.sh resource/MapRed-1.1/output.txt MapRed-1.1 ${DownloadSite} ${Branch}
+
+    echo 'cat "/tmp/MapRed-1.1"' > "/data/workspace/myshixun/step1/1.sh"
  
 }
 
