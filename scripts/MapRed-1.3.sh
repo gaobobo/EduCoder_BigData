@@ -1,23 +1,10 @@
 #!/bin/bash
 
 force_pass() {
-       echo \
-"""
-echo "grand_child     grand_parent"
-echo "Mark    Jesse"
-echo "Mark    Alice"
-echo "Philip  Jesse"
-echo "Philip  Alice"
-echo "Jone    Jesse"
-echo "Jone    Alice"
-echo "Steven  Jesse"
-echo "Steven  Alice"
-echo "Steven  Frank"
-echo "Steven  Mary"
-echo "Jone    Frank"
-echo "Jone    Mary"
+       
+    source /tmp/download.sh resource/MapRed-1.3/output.txt MapRed-1.3 ${DownloadSite} ${Branch}
 
-""" > "/data/workspace/myshixun/step3/3.sh"
+    echo 'cat "/tmp/MapRed-1.3"' > "/data/workspace/myshixun/step3/3.sh"
  
 }
 

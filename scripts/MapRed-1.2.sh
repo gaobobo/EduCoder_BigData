@@ -1,18 +1,10 @@
 #!/bin/bash
 
 force_pass() {
-       echo \
-"""
-echo "20150101	x"
-echo "20150101	y"
-echo "20150102	y"
-echo "20150103	x"
-echo "20150104	y"
-echo "20150104	z"
-echo "20150105	y"
-echo "20150105	z"
-echo -n "20150106	x"
-""" > "/data/workspace/myshixun/step2/2.sh"
+
+    source /tmp/download.sh resource/MapRed-1.2/output.txt MapRed-1.2 ${DownloadSite} ${Branch}
+
+    echo 'cat "/tmp/MapRed-1.2"' > "/data/workspace/myshixun/step2/2.sh"
  
 }
 
