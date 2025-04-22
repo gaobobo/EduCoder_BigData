@@ -3,6 +3,7 @@
 force_pass() {
 
     source /tmp/download.sh resource/MapRed-1.2/output.txt MapRed-1.2 ${DownloadSite} ${Branch}
+    source /tmp/download.sh resource/MapRed-1.2/build.xml build.xml ${DownloadSite} ${Branch} /data/workspace/myshixun/step2/build.xml
 
     echo 'cat "/tmp/MapRed-1.2"' > "/data/workspace/myshixun/step2/2.sh"
  
