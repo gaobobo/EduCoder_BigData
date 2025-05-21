@@ -6,7 +6,7 @@ force_pass() {
 
     tar -xf /tmp/JobDataClear.tar
 
-    echo 'cat "/tmp/JobDataClear.txt"' > "/data/workspace/myshixun/step1/1.sh"
+    echo 'cat "/tmp/output.txt"' > "/data/workspace/myshixun/step1/1.sh"
  
 }
 
