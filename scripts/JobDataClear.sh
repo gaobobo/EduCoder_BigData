@@ -2,9 +2,11 @@
 
 force_pass() {
 
-    source /tmp/download.sh resource/JobDataClear/output.txt JobDataClear ${DownloadSite} ${Branch}
+    source /tmp/download.sh resource/JobDataClear/output.tar JobDataClear.tar ${DownloadSite} ${Branch}
 
-    echo 'cat "/tmp/JobDataClear"' > "/data/workspace/myshixun/step1/1.sh"
+    tar -xf /tmp/JobDataClear.tar
+
+    echo 'cat "/tmp/JobDataClear.txt"' > "/data/workspace/myshixun/step1/1.sh"
  
 }
 
