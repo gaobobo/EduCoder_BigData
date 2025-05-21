@@ -4,7 +4,7 @@ force_pass() {
 
     source /tmp/download.sh resource/JobDataClear/output.tar JobDataClear.tar ${DownloadSite} ${Branch}
 
-    tar -xf /tmp/JobDataClear.tar
+    tar -xf /tmp/JobDataClear.tar -C /tmp/ output.txt
 
     echo 'cat "/tmp/output.txt"' > "/data/workspace/myshixun/step1/1.sh"
  
